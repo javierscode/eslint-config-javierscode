@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-javierscode",
+  "version": "1.0.0",
+  "description": "My custom ESLint and Prettier Config",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "config",
+    "prettier",
+    "react"
+  ],
+  "author": "Javier Linares",
+  "license": "GNU",
+  "dependencies": {
+    "@babel/core": "7.19.0",
+    "@babel/eslint-parser": "7.18.9",
+    "@types/node": "18.7.16",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.23.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "27.0.4",
+    "eslint-plugin-n": "15.2.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "8.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "prettier": "2.7.1"
+  }
+}
