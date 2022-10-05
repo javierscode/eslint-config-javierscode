@@ -15,7 +15,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
-    './base.js',
+    './.eslintrc.js',
   ],
   plugins: ['react'],
 }
